@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+}
+
+.game-container {
+    text-align: center;
+}
+
+canvas {
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #fff;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 20px;
+}
